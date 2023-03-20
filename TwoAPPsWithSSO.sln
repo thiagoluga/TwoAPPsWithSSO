@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppReact", "src\AppReact\AppReact.csproj", "{EF0BDA43-4FD9-4030-85F9-1467036341BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonalInfoAppWithReact", "src\PersonalInfoAppWithReact\PersonalInfoAppWithReact.csproj", "{EF0BDA43-4FD9-4030-85F9-1467036341BD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityWithReactLogin", "src\IdentityWithReactLogin\IdentityWithReactLogin.csproj", "{4E27747A-3ABB-43BA-9B0D-7DA8064ADB5B}"
 EndProject
