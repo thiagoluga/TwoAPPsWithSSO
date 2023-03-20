@@ -26,16 +26,12 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseSwaggerConfiguration();
-//app.ConfigureInitialDatabase();
 
-//MyIdentityDbContext dbcontext = app.Services.GetService<MyIdentityDbContext>();
-//dbcontext.Database.EnsureCreated();
+using (var scope =
+  app.Services.CreateScope())
 
-//using (var scope =
-//  app.Services.CreateScope())
-
-//using (var context = scope.ServiceProvider.GetService<MyIdentityDbContext>())
-//    context.Database.EnsureCreated();
+using (var context = scope.ServiceProvider.GetService<MyIdentityDbContext>())
+    context.Database.EnsureCreated();
 
 app.MapControllerRoute(
     name: "default",

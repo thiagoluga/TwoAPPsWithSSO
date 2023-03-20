@@ -18,10 +18,6 @@ namespace IdentityWithReactLogin.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //optionsBuilder.en
-            //optionsBuilder
-            //    .UseLazyLoadingProxies()
-            //    .UseSqlite("Data Source=c:\\db\\BrianBotDB.sqlite"); //// TODO pegar o endereco do DB pelo arquivo config
         }
     }
 }
