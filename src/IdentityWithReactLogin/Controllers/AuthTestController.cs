@@ -5,7 +5,7 @@ namespace IdentityWithReactLogin.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class TestController : ControllerBase
+    public class AuthTestController : ControllerBase
     {
         [HttpGet]
         [Route("no-auth")]
